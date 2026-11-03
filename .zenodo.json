@@ -1,0 +1,39 @@
+{
+  "title": "sph-map 11.8.0: spherical-harmonic Fourier filtering of crystallographic electron-density maps (code for Panjikar, Weiss & Jayatilaka, Acta Cryst. A)",
+  "upload_type": "software",
+  "description": "<p>sph-map multiplies each phased crystallographic Fourier coefficient by a real spherical harmonic of the reciprocal-lattice direction and writes the filtered coefficients and maps. This release is the version used in Panjikar, Weiss &amp; Jayatilaka, <i>Directional analysis of electron-density maps by spherical-harmonic Fourier filtering</i> (Acta Cryst. A, submitted), and contains the scripts that reproduce every number, table and figure of that paper. The input data are archived in a separate Zenodo record together with the same scripts (see related identifiers).</p>",
+  "creators": [
+    {
+      "name": "Panjikar, Santosh",
+      "orcid": "0000-0001-7429-3879",
+      "affiliation": "ANSTO, Australian Synchrotron; Monash University"
+    },
+    {
+      "name": "Weiss, Manfred S.",
+      "orcid": "0000-0002-2362-7047",
+      "affiliation": "Helmholtz-Zentrum Berlin"
+    },
+    {
+      "name": "Jayatilaka, Dylan",
+      "orcid": "0000-0002-3349-5834",
+      "affiliation": "Max Planck Institute for Multidisciplinary Sciences; The University of Western Australia"
+    }
+  ],
+  "keywords": [
+    "crystallography",
+    "electron density",
+    "spherical harmonics",
+    "Riesz transform",
+    "directional filtering",
+    "Fourier filtering"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23608339",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset"
+    }
+  ],
+  "language": "eng",
+  "license": "bsd-3-clause"
+}

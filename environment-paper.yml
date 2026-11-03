@@ -1,0 +1,18 @@
+# Exact versions recorded in the run manifests of the IB5132 calculations.
+# The pinned packages are installed with pip, because not every pinned version is on conda-forge for every
+# platform (scipy 1.15.3 is missing for macOS arm64). PyMOL and Pillow are needed for Fig. 3 only.
+name: sph-map-ib5132
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - matplotlib
+  - pillow
+  - pymol-open-source
+  - pip
+  - pip:
+      - numpy==2.2.6
+      - scipy==1.15.3
+      - gemmi==0.7.1
+      - pandas==2.3.2
+      - reciprocalspaceship==1.0.8

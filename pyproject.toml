@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sph-directional-filtering"
+dynamic = ["version"]
+description = "Spherical-harmonic (l = 0, 1) Fourier filtering of crystallographic electron-density maps"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+authors = [
+  {name = "Santosh Panjikar"},
+  {name = "Manfred S. Weiss"},
+  {name = "Dylan Jayatilaka"},
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: MacOS",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = [
+  "numpy>=1.26.4,<3",
+  "pandas>=2.2.3,<3",
+  "scipy>=1.15.3,<2",
+  "gemmi>=0.7.1,<0.8",
+  "reciprocalspaceship>=1.0.6,<2",
+]
+
+[project.scripts]
+sph-map = "sph.cli:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "sph.version.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["sph*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

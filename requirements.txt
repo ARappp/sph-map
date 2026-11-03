@@ -1,0 +1,5 @@
+numpy>=1.26.4,<3
+pandas>=2.2.3,<3
+scipy>=1.15.3,<2
+gemmi>=0.7.1,<0.8
+reciprocalspaceship>=1.0.6,<2

@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper and the software as below."
+title: "sph-map: spherical-harmonic Fourier filtering of crystallographic electron-density maps"
+version: "11.8.0"
+# doi: 10.5281/zenodo.XXXXXXX     # add the version DOI after the first GitHub release
+# date-released: 2026-MM-DD
+license: BSD-3-Clause
+repository-code: "https://github.com/ARappp/sph-map"
+authors:
+  - family-names: Panjikar
+    given-names: Santosh
+    orcid: "https://orcid.org/0000-0001-7429-3879"
+    affiliation: "ANSTO, Australian Synchrotron; Monash University"
+  - family-names: Weiss
+    given-names: Manfred S.
+    orcid: "https://orcid.org/0000-0002-2362-7047"
+    affiliation: "Helmholtz-Zentrum Berlin"
+  - family-names: Jayatilaka
+    given-names: Dylan
+    orcid: "https://orcid.org/0000-0002-3349-5834"
+    affiliation: "Max Planck Institute for Multidisciplinary Sciences; The University of Western Australia"
+keywords:
+  - crystallography
+  - electron density
+  - spherical harmonics
+  - Riesz transform
+  - directional filtering
+preferred-citation:
+  type: article
+  title: "Directional analysis of electron-density maps by spherical-harmonic Fourier filtering"
+  authors:
+    - family-names: Panjikar
+      given-names: Santosh
+    - family-names: Weiss
+      given-names: Manfred S.
+    - family-names: Jayatilaka
+      given-names: Dylan
+  journal: "Acta Crystallographica Section A: Foundations and Advances"
+  year: 2026
+  status: submitted

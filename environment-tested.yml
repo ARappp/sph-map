@@ -1,0 +1,13 @@
+# Environment in which sph-map 11.8 was developed (Linux, WSL2)
+name: sph-directional-filtering-11.8.0-tested
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.9
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - scipy=1.16.3
+  - gemmi=0.7.3
+  - pip=25.2
+  - pip:
+      - reciprocalspaceship==1.0.6
